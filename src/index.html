@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="calccontainer">
+      <button id="close-btn" class="close-btn">&#10005;</button>
+      <div class="title">
+        <h2>Electron Calculator</h2>
+      </div>
+      <div class="displaycontainer">
+        <p id="result" class="result">0</p>
+        <p id="equation" class="equation"></p>
+      </div>
+      <div class="numeralcontainer">
+        <Button id="7" class="btn btn-secondary">7</Button>
+        <Button id="8" class="btn btn-secondary">8</Button>
+        <Button id="9" class="btn btn-secondary">9</Button>
+        <Button id="del" class="btn btn-secondary">del</Button>
+        <br>
+        <Button id="4" class="btn btn-secondary">4</Button>
+        <Button id="5" class="btn btn-secondary">5</Button>
+        <Button id="6" class="btn btn-secondary">6</Button>
+        <Button id="-" class="btn btn-secondary">-</Button>
+        <br>
+        <Button id="1" class="btn btn-secondary">1</Button>
+        <Button id="2" class="btn btn-secondary">2</Button>
+        <Button id="3" class="btn btn-secondary">3</Button>
+        <Button id="+" class="btn btn-secondary">+</Button>
+        <br>
+        <Button id="plusMinus" class="btn btn-secondary">+/-</Button>
+        <Button id="0" class="btn btn-secondary">0</Button>
+        <Button id="comma" class="btn btn-secondary">.</Button>
+        <Button id="equals" class="btn btn-secondary">=</Button>
+
+      </div>
+    </div>
+  </body>
+  <script  src="render.js"></script>
+</html>
