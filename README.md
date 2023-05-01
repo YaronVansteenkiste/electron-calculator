@@ -1,6 +1,6 @@
 # Electron Calculator
 
-![Preview](https://github.com/YaronVansteenkiste/electron-calculator/blob/master/preview/preview.png)
+![Preview](https://github.com/YaronVansteenkiste/electron-calculator/blob/master/preview/screenshot.png)
 
 This project is a simple calculator built using Electron.
 
